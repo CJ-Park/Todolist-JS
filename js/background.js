@@ -6,5 +6,5 @@ const images = [
 
 const chosenImage = images[Math.floor(Math.random()*images.length)];
 let backImage = new Image();
-backImage = `url(../MOMENTUM/img/${chosenImage})`;
+backImage = `url(../Todolist-JS/img/${chosenImage})`;
 body.style.backgroundImage = backImage;
